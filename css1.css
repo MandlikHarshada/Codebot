@@ -137,8 +137,10 @@ div img{
     border-radius: 10%;
 }
 #skill1 img:hover{
-    box-shadow:  0 10px 20px yellow;
+    box-shadow:  0 10px 20px red;
+    transform: scale(1.06);
 }
+
 .heading{
     text-align: center;
     justify-content: center;
