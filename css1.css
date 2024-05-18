@@ -23,6 +23,7 @@ html{
 }
 span{
     font-weight: bolder;
+
 }
 
 nav{
@@ -97,7 +98,7 @@ nav ul li a{
 }
 
 .detail p{
-    color: #555;
+    color: white;
     line-height: 22px;
     font-size: 20px;
     margin-bottom: 5px;
@@ -128,6 +129,16 @@ div img{
     width: 100%;
     background-color: rgb(208, 224, 224);
 }
+div {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    50%  {background-color: blue;}
+  }
 #skill1 img{
     margin-top: 70px;
     margin-left: 230px;
